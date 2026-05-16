@@ -53,3 +53,7 @@ The drill direction is taken from the sketch's host plane and auto oriented towa
 ## Known limitations
 
 Helical sweeps are computationally heavier than cosmetic threads, so a long M3 thread can take a noticeable second or two to regenerate, and very fine pitches on long holes add up. The thread profile is a simple ISO 60 degree V without crest or root truncation, which is fine for resin prints and visualisation but is a small simplification compared to the exact ISO 68-1 profile. Standards covered are metric ISO and Unified inch only, so trapezoidal, buttress, NPT, and other thread profiles are out of scope here.
+
+## Contributing
+
+If something here could be done better, or you spot a bug, please open an issue or a pull request. The whole feature lives in one .fs file so most changes stay small and self contained. And if you find it useful, a star is appreciated, but not at all expected.
