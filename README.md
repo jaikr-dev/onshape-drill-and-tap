@@ -28,7 +28,7 @@ That is where the helical thread geometry becomes necessary. If I want to physic
 
 There are several ways to handle threads in resin printed parts, and Stefan from CNC Kitchen [tested most of them in a careful article and video](https://www.cnckitchen.com/blog/how-to-use-threaded-inserts-in-resin-3d-prints), including hand tapping the resin, heat set inserts, directly screwing into the printed hole, a few glue assisted variants, and modelling and printing the threads directly in CAD. His failure load comparison across PLA, Prusa Tough Grey, and Elegoo Transparent shows that printed threads come out as the strongest option in both resin materials, and the result holds even though printed threads are also the simplest method to execute, since they need no post processing beyond the print itself.
 
-![Failure loads for different threading methods, comparing PLA against two resins (Prusa Tough Grey and Elegoo Transparent), from CNC Kitchen](thread-method-comparison.webp)
+![Failure loads for different threading methods, comparing PLA against two resins (Prusa Tough Grey and Elegoo Transparent), from CNC Kitchen](assets/thread-method-comparison.webp)
 
 So the workflow this FeatureScript supports is the prototyping side: design the part in Onshape with the tapped holes modelled as real helical geometry, and resin print it to verify the fit and that everything goes together the way you expect. When it comes time to actually machine the part, the convention is still to model the hole at the tap drill diameter and put the thread callout on the drawing, since the shop's tap cuts the thread itself rather than following the helical geometry in the model.
 
