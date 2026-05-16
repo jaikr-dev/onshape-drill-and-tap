@@ -2,6 +2,16 @@
 
 A single Onshape FeatureScript that takes a sketch point and produces a real, helical, tapped hole on the target part in one operation. It drills the bore at the correct tap drill diameter for whichever thread you pick and then sweeps a 60 degree ISO V profile along a helix at the major diameter to cut the actual thread geometry, all from a single feature dialog. The size lookup covers ISO metric M3 through M24 in coarse and fine pitches, Unified UNC and UNF from #4 up to one inch, and a custom mode for anything outside those tables. Through hole and an entry lead in chamfer are both optional.
 
+## What it looks like
+
+A short worked example: a backing plate with five tapped holes (M3 coarse, M8 coarse, M12 fine, 1/4-20 UNC, and 1 inch UNC), each one generated from a sketch point as a single Drill & Tap feature in the tree.
+
+![Isometric view of the backing plate, with the helical thread geometry visible through the open ends of the holes](assets/example-iso.png)
+
+![Top view of the same plate, showing the five holes laid out across it with their varying diameters](assets/example-top.png)
+
+![Cutaway view with the body made transparent so the helical threads inside each hole are visible, alongside the Drill & Tap dialog being used to configure the 1 inch hole](assets/example-dialog.png)
+
 ## Why this exists
 
 The existing thread FeatureScripts in the Onshape ecosystem are all good at what they do, but they share a workflow assumption that did not fit what I was trying to do. Each one takes a cylindrical hole or shaft that you have already modelled and adds thread geometry onto that existing surface.
