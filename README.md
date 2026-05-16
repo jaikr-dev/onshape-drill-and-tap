@@ -56,4 +56,4 @@ Helical sweeps are computationally heavier than cosmetic threads, so a long M3 t
 
 ## Contributing
 
-If something here could be done better, or you spot a bug, please open an issue or a pull request. The whole feature lives in one .fs file so most changes stay small and self contained. And if you find it useful, a star is appreciated, but not at all expected.
+If something here could be done better, or you spot a bug, please open an issue or a pull request. The whole feature lives in one .fs file so most changes stay small and self contained.
